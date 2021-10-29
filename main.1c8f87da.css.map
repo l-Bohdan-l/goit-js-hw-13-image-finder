@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA,aACE,YAAa,CACb,sBAAuB,CACvB,cACF","file":"main.1c8f87da.css","sourceRoot":"../src","sourcesContent":[".search-form {\n  display: flex;\n  justify-content: center;\n  margin-top: 5px;\n}\n"]}
