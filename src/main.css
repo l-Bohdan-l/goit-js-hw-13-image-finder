@@ -3,3 +3,21 @@
   justify-content: center;
   margin-top: 5px;
 }
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.photo-card {
+  width: 640px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
