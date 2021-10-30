@@ -69,7 +69,6 @@ export class pixabayImg {
                 stack: myStack,
             });
         }
-        console.log(data)
         let imgMarkup = cardImageTemplate(data.hits);
         // console.log(imgMarkup)
         ulEl.insertAdjacentHTML('beforeend', imgMarkup)
@@ -90,14 +89,3 @@ export class pixabayImg {
 
 
 }
-
-// export function getImage(e) {
-//     ulEl.innerHTML = '';
-//     console.log(e.target.value)
-//     const inputValue = e.target.value;
-//     getFetch(inputValue);
-// }
-
-// export function loadMoreImg(e) {
-//     console.log(e.target.value)
-// }

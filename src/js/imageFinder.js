@@ -5,7 +5,6 @@ import { pixabayImg } from './services'
 
 const { inputEl, ulEl, loadMoreBtn, btnSectionEl, bodyEl} = refs;
 const debounce = require('lodash.debounce');
-console.log(bodyEl)
 inputEl.addEventListener('input', debounce(getImage, 500));
 loadMoreBtn.addEventListener('click', loadMoreImg)
 loadMoreBtn.addEventListener('click', debounce(scroll, 50))
@@ -34,7 +33,6 @@ function scroll(e) {
     });
 }
 
-// const element = document.getElementById('.my-element-selector');
 
 
 // function fetchImage(inputValue, pageNum = 1) {
